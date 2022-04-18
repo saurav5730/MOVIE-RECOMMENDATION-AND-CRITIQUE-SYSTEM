@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> About</title>
+        <link
+        rel="stylesheet"
+        href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+      
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+      <body style="background-image: url(https://lileadproject.files.wordpress.com/2016/12/website-background-grey-fw.png?w=900);
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: 100% 100%;"
+      >
+    </head>
+        <!--<nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#">Boxoffice</a>
+            
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="{{ url_for('static', filename='visualization/hello.html') }}">Visualization</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="{{ url_for('review')}}">Top recommended movie</a>
+                    </li>
+                </ul>
+                
+            </div>
+        </nav>>-->
+        <nav class="navbar navbar-inverse">
+            <div class="container-fluid">
+              <div class="navbar-header">
+                <a class="navbar-brand" href="#">BoxOffice</a>
+              </div>
+              <ul class="nav navbar-nav">
+                <li>
+                  <a
+                    href="{{ url_for('static', filename='visualization/hello.html') }}"
+                    >Visualization</a
+                  >
+                </li>
+                <li><a href="{{url_for('review')}}">Top Recommended Movies</a></li>
+              </ul>
+              <ul class="nav navbar-nav navbar-right">
+                <li>
+                    <a style="color:white";class="btn btn-primary" href="ThankYou1.html" role="button" >Log Out</a>  
+                </li>
+                
+              </ul>
+            </div>
+          </nav>  
+          <div class="container-fluid">         
+            <div class="row">
+              <div class="col-sm-4" >
+                <div class="card" style="width: 12rem;">
+                  <img class="card-img-top" src="https://thumbor.forbes.com/thumbor/960x0/https%3A%2F%2Fblogs-images.forbes.com%2Fscottmendelson%2Ffiles%2F2018%2F04%2Fimage001.jpg" alt="Card image cap" height="540px" width="410px">
+                  <div class="card-body">
+                      <h2 class="card-title">Avengers:Infinity War</h2>
+                  </div>
+              </div>
+              <a href="RecommenderPage1.html"><button type="submit" class="btn btn-primary" name="imdbid" value="">Give Review</button></a>
+              </div>
+              <div class="col-sm-4" >
+                <p align="justify" ><b>About Movie</b>
+                  <br>
+                  <br>
+                  The Avengers and their allies must be willing to sacrifice all in an attempt to defeat the powerful Thanos before his blitz of devastation and ruin puts an end to the universe. Avengers: Infinity War is a 2018 American superhero film based on the Marvel Comics superhero team the Avengers. it is the sequel to The Avengers (2012) and Avengers: Age of Ultron (2015), and the 19th film in the Marvel Cinematic Universe (MCU). Having acquired the Power Stone–one of the six Infinity Stones–from the planet Xandar, Thanos and his lieutenants: Ebony Maw, Cull Obsidian, Proxima Midnight, and Corvus Glaive, intercept the spaceship carrying the survivors of Asgard's destruction. 
+                  <br>
+                  <br>
+                  <h5><b>Production: </b>Produced by Marvel Studios and distributed by Walt Disney Studios Motion Pictures
+                      <br>
+                      <br>
+                      <b>Directors:</b> Anthony Russo, Joe Russo
+                      <br>
+                      <br>
+                      <b>Stars:</b> Robert Downey Jr., Chris Evans, Mark Ruffalo <a href="https://www.imdb.com/title/tt4154796/fullcredits/?ref_=tt_ov_st_sm">see full cast</a>>
+                      <br>
+                      <br>
+                      <b>Awards:</b><a href="https://en.wikipedia.org/wiki/People%27s_Choice_Awards"> People's choice award for favourite movie 2018</a>,
+                      <a href="https://www.kidschoiceawards.com/"> Kid's choice award 2019</a>
+                </h5>
+                <b>Sucess Graph:</b5>
+                <br>
+                <br>
+                <img class="card-img-top" src="https://ichef.bbci.co.uk/news/640/cpsprodpb/149BF/production/_106651448_avengersmovie1-nc.png" alt="Card image cap" height="240px" width="320px">
+              </p> 
+              </div>
+              <div class="col-sm-4" >
+                <marquee class="marq"  direction = "up" loop="" >                               
+                <p><h2>User Comments</h2>
+                  <br>
+                  <b>Saurav_6</b>
+                  <br>
+                  <h5>This movie portrays a villain that by far has been the best out of all the other Marvel antagonists. It shows his personal conflicts, his purpose, as well as his cruelty. The heroes of this film are overshadowed by this, but the ending really makes a mark on the audience.</h5>
+                  <br>
+                  <b>Saksham_4</b>
+                  <br>
+                  <h5>A meticulously planned film down to the last detail, where you can see how much love is behind it. Of course, the film delivers impressive show values and action, but besides, it is above all the interactions of the characters that are well thought out.</h5>
+                  <br>
+                  <b>Dhanan_jay</b>
+                  <br>
+                  <h5>Nice action and story. Loved it a lot</h5>
+                  <br>
+                  <b>Sayan_8</b>
+                  <br>
+                  <h5>With the participation of almost every member of the MCU, this movie redefines the Action genre, setting the bar higher up than ever before.</h5>
+                  <br>
+                  <b>Satya_nash</b>
+                  <br>
+                  <h5>The story is very engaging, the script is hilarious and the movie doesn't follow the regular Hollywood formula it is with out a doubts not only one of the greatest super hero movies but one of the best achieved films in history hands down. 10/10.</h5>
+                  <br>
+                  <b>Alfo</b>
+                  <h5>After re-watching Infinity War multiple times it still gets me because it's sad the ending really is just another cinematic masterpiece which Marvel always pull off and the fight scenes are amazing. </h5>  
+                  <br>                                                       
+                </marquee>
+              </div>
+            </div>
+          </div>       
+        <script src="http://code.jquery.com/jquery-3.3.1. slim.min.js" integrity="sha384-q8i/x+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script> 
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1c1HTMGa3JDZwQq4sF86d1HNDzOW1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>    
+      <!-- AddToAny BEGIN -->
+    <div style="margin:auto;width:10%">
+      <a class="a2a_dd" href="https://www.addtoany.com/share"><img src="https://static.addtoany.com/buttons/share_save_171_16.png" width="171" height="16" border="0" alt="Share"></a>
+      
+      <script async src="https://static.addtoany.com/menu/page.js"></script></div>
+      <!-- AddToAny END -->
+      </body>
+</html>

@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> About</title>
+        <link
+        rel="stylesheet"
+        href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+      <body style="background-image: url(https://lileadproject.files.wordpress.com/2016/12/website-background-grey-fw.png?w=900);
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: 100% 100%;
+    ">
+    </head>
+        <!--<nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#">Boxoffice</a>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="{{ url_for('static', filename='visualization/hello.html') }}">Visualization</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="{{ url_for('review')}}">Top recommended movie</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>>-->
+        <nav class="navbar navbar-inverse">
+            <div class="container-fluid">
+              <div class="navbar-header">
+                <a class="navbar-brand" href="#">BoxOffice</a>
+              </div>
+              <ul class="nav navbar-nav">
+                <li>
+                  <a
+                    href="{{ url_for('static', filename='visualization/hello.html') }}"
+                    >Visualization</a
+                  >
+                </li>
+                <li><a href="{{url_for('review')}}">Top Recommended Movies</a></li>
+              </ul>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+              <li>
+                  <a style="color:white";class="btn btn-primary" href="ThankYou1.html" role="button" >Log Out</a>  
+              </li> 
+            </ul>
+            </div>
+          </nav>  
+          <div class="container-fluid">         
+            <div class="row">
+              <div class="col-sm-4" >
+                <div class="card" style="width: 12rem;">
+                  <img class="card-img-top" src="https://cdn141.picsart.com/304987033025201.jpg?type=webp&to=min&r=640" alt="Card image cap" height="580px" width="410px">
+                  <div class="card-body">
+                      <h2 class="card-title">Avengers:Endgame</h2>
+                  </div>
+              </div>
+                <a href="RecommenderPage.html"><button type="submit" class="btn btn-primary" name="imdbid" value="">Give Review</button></a>
+              </div>
+              <div class="col-sm-4" >
+                <p align="justify"><b>About Movie</b>
+                  <br>
+                  <br>
+                  Avengers: Endgame is a 2019 American superhero film based on the Marvel Comics superhero team the Avengers. it is the direct sequel to Avengers: Infinity War (2018) and the 22nd film in the Marvel Cinematic Universe (MCU). After the devastating events of Avengers: Infinity War (2018), the universe is in ruins. With the help of remaining allies, the Avengers assemble once more in order to reverse Thanos' actions and restore balance to the universe.
+                  <br>
+                  <br>
+                  <h5><b>Production: </b>Produced by Marvel Studios and distributed by Walt Disney Studios Motion Pictures
+                      <br>
+                      <br>
+                      <b>Directors:</b> Anthony Russo, Joe Russo
+                      <br>
+                      <br>
+                      <b>Stars:</b> Robert Downey Jr., Chris Evans, Mark Ruffalo <a href="https://www.imdb.com/title/tt4154796/fullcredits/?ref_=tt_ov_st_sm">see full cast</a>>
+                      <br>
+                      <br>
+                      <b>Awards:</b><a href="https://en.wikipedia.org/wiki/Screen_Actors_Guild_Awards ">Screen Actors Guild Awards 2020</a>,
+                      <a href="https://en.wikipedia.org/wiki/MTV_Movie_%26_TV_Awards"> MTV Movie Award for Best Hero</a>
+                </h5>
+                <b>Sucess Graph:</b5>
+                <br>
+                <img class="card-img-top" src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/North_American_Domestic_Box_Office.png/440px-North_American_Domestic_Box_Office.png" alt="Card image cap" height="290px" width="320px">
+              </p> 
+              </div>
+              <div class="col-sm-4" >
+                <marquee class="marq"  direction = "up" loop="" >                               
+                <p><h2>User Comments</h2>
+                  <br>
+                  <b>Ayush_1</b>
+                  <br>
+                  <h5>It is an amazing movie with tons of thirll and action.</h5>
+                  <br>
+                  <b>Komal_4</b>
+                  <br>
+                  <h5>The crowd applauded 3 times during the movie, and stood up to clap their hands after. This I have never witnessed in a Dutch cinema.</h5>
+                  <br>
+                  <b>Rit_wik</b>
+                  <br>
+                  <h5>Excellent film to culminate MCU ride!!Saw it today with my kids and they loved it.</h5>
+                  <br>
+                  <b>Mihika_2</b>
+                  <br>
+                  <h5>This is the best movie in our life</h5>
+                  <br>
+                  <b>Raj</b>
+                  <br>
+                  <h5>Really Good Show.
+                  But the curse words ruin it i watched it with my 12 year old its better for kids 14 and up.</h5>
+                  <br>
+                  <b>Leo_44</b>
+                  <h5>Great! So proud of this movie, the first Marvel movie to address the LGBTQ community. A brilliant ending to a saga.</h5>  
+                  <br>
+                  <b>Mon_ty</b>     
+                  <h5>This movie is great, fun filled, action packed, and shows what a true hero is. Amazing.</h5>                                      
+                </marquee>
+              </div>
+            </div>
+          </div>       
+        <script src="http://code.jquery.com/jquery-3.3.1. slim.min.js" integrity="sha384-q8i/x+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script> 
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1c1HTMGa3JDZwQq4sF86d1HNDzOW1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>    
+      <!-- AddToAny BEGIN -->
+    <div style="margin:auto;width:10%">
+      <a class="a2a_dd" href="https://www.addtoany.com/share"><img src="https://static.addtoany.com/buttons/share_save_171_16.png" width="171" height="16" border="0" alt="Share"></a>
+      <script async src="https://static.addtoany.com/menu/page.js"></script></div>
+      <!-- AddToAny END -->
+      </body>
+</html>
