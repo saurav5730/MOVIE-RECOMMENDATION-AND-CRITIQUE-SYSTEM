@@ -18,4 +18,4 @@ Recommender Page
 About us Page
 
 ![image](https://user-images.githubusercontent.com/103409230/163827135-b60e601e-d959-4c89-bc27-de2222e701b0.png)
-Thankyou Page
+Recommender Page
