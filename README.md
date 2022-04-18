@@ -12,10 +12,10 @@ Log in/Sign up Page
 Movie info Page
 
 ![image](https://user-images.githubusercontent.com/103409230/163827207-44db83cb-ad2e-4bde-9fd0-a2d64a235828.png)
-Recommender Page
+About us Page
 
 ![image](https://user-images.githubusercontent.com/103409230/163827318-55115ffb-8886-4be6-a4b2-d1e4547ceebc.png)
-About us Page
+Thankyou Page
 
 ![image](https://user-images.githubusercontent.com/103409230/163827135-b60e601e-d959-4c89-bc27-de2222e701b0.png)
 Recommender Page
